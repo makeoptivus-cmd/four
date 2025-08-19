@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Suggestion Agent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>🧵 Textile Product Suggestion Agent</h1>
+    <div class="input-section">
+      <textarea id="userInput" placeholder="Enter customer details or query..."></textarea>
+      <button onclick="analyzeInput()">Analyze & Suggest</button>
+    </div>
+    <div class="output-section">
+      <h2>📊 Analysis</h2>
+      <pre id="analysisOutput">Your analysis will appear here...</pre>
+      <h2>🛍 Suggested Products</h2>
+      <div id="productOutput" class="product-list"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
